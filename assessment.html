@@ -26,10 +26,10 @@
 			border: 1px solid #ccc;
 			padding: 10px;
 		}
-		tr:nth-child(even){
+		tr:nth-child(odd){
 			background-color: #eee;
 		}
-		tr:nth-child(odd) {
+		tr:nth-child(even) {
 			background-color: #fff;
 		}
 	</style>
@@ -46,6 +46,7 @@
 				<th></th>
 			</tr>
 		</thead>
+		<tbody>
 		<tr>
 			<td></td>
 			<td>Q1</td>
@@ -55,12 +56,12 @@
 			<td>Final</td>
 		</tr>
 		<tr>
-			<td>Vikings</td>
-			<td>3</td>
-			<td>10</td>
-			<td>7</td>
-			<td>3</td>
-			<td>23</td>
+			<td><strong>Vikings</strong></td>
+			<td><strong>3</strong></td>
+			<td><strong>10</strong></td>
+			<td><strong>7</strong></td>
+			<td><strong>3</strong></td>
+			<td><strong>23</strong></td>
 		</tr>
 		<tr>
 			<td>49ers</td>
@@ -78,8 +79,97 @@
 			<td>13</td>
 			<td>40</td>
 		</tr>
+	</tbody>
 	</table>
-<h2>Team Info</h2>
 
+<h2>Team Info</h2>
+<caption>- MN Vikings Logo -</caption>
+<img src="https://1000logos.net/wp-content/uploads/2017/06/Minnesota-Vikings-Logo-500x281.png" alt = "Vikings Logo" />
+
+<div>
+<p><strong>Team Website</strong>  <a href="https://www.vikings.com/"target="_blank"> The Team </a>
+</p>
+</div>
+
+<ul>
+	<li>Team Magic Makers</li>
+	  <ul>
+	  	<li>Head Coach: Kevin O'Connell</li>
+	  	<li>Quarterbacks</li>
+	  	<ol>
+	  		<li>Sam Darnold</li>
+	  		<li>Nick Mullins</li>
+	  		<li>Brett Rypien</li>
+	  		<li>JJ McCarthy (IR)</li>
+	  		<li>Daniel Jones (PS)</li>
+	  	</ol>
+	  </ul>
+</ul>
+
+<h3>Requested Info</h3>
+<label for="favorite player">Favorite Player (5 to 20 characters):</label>
+<input type="text" id="name" name="name" required minlength="5" maxlength="20" size="25" />
+<div>
+	<button>
+		Submit
+	</button>
+</div>
+
+<fieldset>
+  <legend>Choose the Vikings' best qualities:</legend>
+  <div>
+    <input type="checkbox" id="touchdowns" name="qualities" value="touchdowns" />
+    <label for="touchdowns">Touchdowns</label>
+  </div>
+  <div>
+    <input type="checkbox" id="touchdown celebrations" name="qualities" value="touchdown celebrations" />
+    <label for="touchdown celebrations">Touchdown celebrations</label>
+  </div>
+  <div>
+    <input type="checkbox" id="handsome as devils" name="qualities" value="handsome as devils" />
+    <label for="handsome as devils">Handsome as devils</label>
+  </div>
+  <div>
+    <input type="checkbox" id="ballin'" name="qualities" value="ballin'" />
+    <label for="ballin'">Ballin'</label>
+  </div>
+<div>
+	<button>
+		Submit
+	</button>
+</div>
+</fieldset>
+
+<fieldset>
+  <legend>Are the Vikings your favorite team:</legend>
+  <div>
+    <input type="radio" id="yes" name="answer" value="yes" checked />
+    <label for="yes">YES</label>
+  </div>
+  <div>
+    <input type="radio" id="no because dumb" name="answer" value="no because dumb" />
+    <label for="no because dumb">No because dumb</label>
+  </div>
+  <div>
+    <input type="radio" id="no because ignorant" name="answer" value="no because ignorant" />
+    <label for="no because ignorant">No because ignorant</label>
+  </div>
+</fieldset>
+<div>
+	<button>
+		Submit
+	</button>
+</div>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
