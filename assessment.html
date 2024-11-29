@@ -26,6 +26,12 @@
 		border: 1px solid #ccc;
 		padding: 10px;
 	}
+	table.alt tr:nth-child(even){
+		background-color: #eee;
+	}
+	table.alt tr:nth-child(odd) {
+		background-color: #fff;
+	}
 </style>
 <h2>Table</h2>
 <table>
@@ -34,9 +40,9 @@
 	</strong></caption>
  	<thead>
 		<tr>
-		  <th></th>
-		  <th>First Half</th>
-		  <th>Second Half</th>
+		  <th>Teams</th>
+		  <th colspan="2">First Half</th>
+		  <th colspan="2">Second Half</th>
 		  <th></th>
 		</tr>
 	</thead>
@@ -54,7 +60,7 @@
 	  	<td>10</td>
 	  	<td>7</td>
 	  	<td>3</td>
-	  	<td></td>
+	  	<td>23</td>
 	  </tr>
 	  <tr>
 	  	<td>49ers</td>
@@ -62,7 +68,7 @@
 	  	<td>7</td>
 	  	<td>0</td>
 	  	<td>10</td>
-	  	<td></td>
+	  	<td>17</td>
 	  </tr>
 	  	  <tr>
 	  	<td>Total</td>
@@ -70,7 +76,7 @@
 	  	<td>17</td>
 	  	<td>7</td>
 	  	<td>13</td>
-	  	<td></td>
+	  	<td>40</td>
 	  </tr>
 </table>
 
